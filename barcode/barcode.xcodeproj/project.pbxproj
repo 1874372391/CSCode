@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1859E4371CE1B69300A91C88 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859E4361CE1B69300A91C88 /* RootViewController.m */; };
+		EC34AB161CE194FA00E04F51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC34AB151CE194FA00E04F51 /* main.m */; };
+		EC34AB191CE194FA00E04F51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC34AB181CE194FA00E04F51 /* AppDelegate.m */; };
+		EC34AB1C1CE194FA00E04F51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC34AB1B1CE194FA00E04F51 /* ViewController.m */; };
+		EC34AB1F1CE194FA00E04F51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC34AB1D1CE194FA00E04F51 /* Main.storyboard */; };
+		EC34AB211CE194FA00E04F51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC34AB201CE194FA00E04F51 /* Assets.xcassets */; };
+		EC34AB241CE194FA00E04F51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC34AB221CE194FA00E04F51 /* LaunchScreen.storyboard */; };
+		EC34AB2F1CE194FA00E04F51 /* barcodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC34AB2E1CE194FA00E04F51 /* barcodeTests.m */; };
+		EC34AB3A1CE194FA00E04F51 /* barcodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC34AB391CE194FA00E04F51 /* barcodeUITests.m */; };
+		EC34AB6B1CE197B000E04F51 /* QRCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = EC34AB481CE197B000E04F51 /* QRCodeGenerator.m */; };
+		EC34AB6C1CE197B000E04F51 /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = EC34AB491CE197B000E04F51 /* bitstream.c */; };
+		EC34AB6D1CE197B000E04F51 /* mask.c in Sources */ = {isa = PBXBuildFile; fileRef = EC34AB4B1CE197B000E04F51 /* mask.c */; };
+		EC34AB6E1CE197B000E04F51 /* qrencode.c in Sources */ = {isa = PBXBuildFile; fileRef = EC34AB4D1CE197B000E04F51 /* qrencode.c */; };
+		EC34AB6F1CE197B000E04F51 /* qrinput.c in Sources */ = {isa = PBXBuildFile; fileRef = EC34AB4F1CE197B000E04F51 /* qrinput.c */; };
+		EC34AB701CE197B000E04F51 /* qrspec.c in Sources */ = {isa = PBXBuildFile; fileRef = EC34AB511CE197B000E04F51 /* qrspec.c */; };
+		EC34AB711CE197B000E04F51 /* rscode.c in Sources */ = {isa = PBXBuildFile; fileRef = EC34AB531CE197B000E04F51 /* rscode.c */; };
+		EC34AB721CE197B000E04F51 /* split.c in Sources */ = {isa = PBXBuildFile; fileRef = EC34AB551CE197B000E04F51 /* split.c */; };
+		EC34AB781CE197D500E04F51 /* line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC34AB741CE197D500E04F51 /* line@2x.png */; };
+		EC34AB791CE197D500E04F51 /* pick_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC34AB751CE197D500E04F51 /* pick_bg@2x.png */; };
+		EC34AB7D1CE1A1BA00E04F51 /* scanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC34AB7C1CE1A1BA00E04F51 /* scanViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC34AB2B1CE194FA00E04F51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC34AB091CE194FA00E04F51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC34AB101CE194FA00E04F51;
+			remoteInfo = barcode;
+		};
+		EC34AB361CE194FA00E04F51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC34AB091CE194FA00E04F51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC34AB101CE194FA00E04F51;
+			remoteInfo = barcode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1859E4351CE1B69300A91C88 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		1859E4361CE1B69300A91C88 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		EC34AB111CE194FA00E04F51 /* barcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = barcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC34AB151CE194FA00E04F51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC34AB171CE194FA00E04F51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC34AB181CE194FA00E04F51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC34AB1A1CE194FA00E04F51 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC34AB1B1CE194FA00E04F51 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC34AB1E1CE194FA00E04F51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC34AB201CE194FA00E04F51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC34AB231CE194FA00E04F51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC34AB251CE194FA00E04F51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC34AB2A1CE194FA00E04F51 /* barcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = barcodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC34AB2E1CE194FA00E04F51 /* barcodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = barcodeTests.m; sourceTree = "<group>"; };
+		EC34AB301CE194FA00E04F51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC34AB351CE194FA00E04F51 /* barcodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = barcodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC34AB391CE194FA00E04F51 /* barcodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = barcodeUITests.m; sourceTree = "<group>"; };
+		EC34AB3B1CE194FA00E04F51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC34AB471CE197B000E04F51 /* QRCodeGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeGenerator.h; sourceTree = "<group>"; };
+		EC34AB481CE197B000E04F51 /* QRCodeGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeGenerator.m; sourceTree = "<group>"; };
+		EC34AB491CE197B000E04F51 /* bitstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bitstream.c; sourceTree = "<group>"; };
+		EC34AB4A1CE197B000E04F51 /* bitstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitstream.h; sourceTree = "<group>"; };
+		EC34AB4B1CE197B000E04F51 /* mask.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mask.c; sourceTree = "<group>"; };
+		EC34AB4C1CE197B000E04F51 /* mask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mask.h; sourceTree = "<group>"; };
+		EC34AB4D1CE197B000E04F51 /* qrencode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrencode.c; sourceTree = "<group>"; };
+		EC34AB4E1CE197B000E04F51 /* qrencode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrencode.h; sourceTree = "<group>"; };
+		EC34AB4F1CE197B000E04F51 /* qrinput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrinput.c; sourceTree = "<group>"; };
+		EC34AB501CE197B000E04F51 /* qrinput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrinput.h; sourceTree = "<group>"; };
+		EC34AB511CE197B000E04F51 /* qrspec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrspec.c; sourceTree = "<group>"; };
+		EC34AB521CE197B000E04F51 /* qrspec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrspec.h; sourceTree = "<group>"; };
+		EC34AB531CE197B000E04F51 /* rscode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rscode.c; sourceTree = "<group>"; };
+		EC34AB541CE197B000E04F51 /* rscode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rscode.h; sourceTree = "<group>"; };
+		EC34AB551CE197B000E04F51 /* split.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = split.c; sourceTree = "<group>"; };
+		EC34AB561CE197B000E04F51 /* split.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = split.h; sourceTree = "<group>"; };
+		EC34AB571CE197B000E04F51 /* Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decoder.h; sourceTree = "<group>"; };
+		EC34AB581CE197B000E04F51 /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		EC34AB591CE197B000E04F51 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		EC34AB5A1CE197B000E04F51 /* ImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScanner.h; sourceTree = "<group>"; };
+		EC34AB5B1CE197B000E04F51 /* Processor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processor.h; sourceTree = "<group>"; };
+		EC34AB5C1CE197B000E04F51 /* Scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scanner.h; sourceTree = "<group>"; };
+		EC34AB5D1CE197B000E04F51 /* Symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symbol.h; sourceTree = "<group>"; };
+		EC34AB5E1CE197B000E04F51 /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		EC34AB5F1CE197B000E04F51 /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		EC34AB601CE197B000E04F51 /* zbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zbar.h; sourceTree = "<group>"; };
+		EC34AB611CE197B000E04F51 /* ZBarCameraSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCameraSimulator.h; sourceTree = "<group>"; };
+		EC34AB621CE197B000E04F51 /* ZBarCaptureReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCaptureReader.h; sourceTree = "<group>"; };
+		EC34AB631CE197B000E04F51 /* ZBarHelpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarHelpController.h; sourceTree = "<group>"; };
+		EC34AB641CE197B000E04F51 /* ZBarImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImage.h; sourceTree = "<group>"; };
+		EC34AB651CE197B000E04F51 /* ZBarImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImageScanner.h; sourceTree = "<group>"; };
+		EC34AB661CE197B000E04F51 /* ZBarReaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderController.h; sourceTree = "<group>"; };
+		EC34AB671CE197B000E04F51 /* ZBarReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderView.h; sourceTree = "<group>"; };
+		EC34AB681CE197B000E04F51 /* ZBarReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderViewController.h; sourceTree = "<group>"; };
+		EC34AB691CE197B000E04F51 /* ZBarSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSDK.h; sourceTree = "<group>"; };
+		EC34AB6A1CE197B000E04F51 /* ZBarSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSymbol.h; sourceTree = "<group>"; };
+		EC34AB741CE197D500E04F51 /* line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line@2x.png"; sourceTree = "<group>"; };
+		EC34AB751CE197D500E04F51 /* pick_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pick_bg@2x.png"; sourceTree = "<group>"; };
+		EC34AB7B1CE1A1BA00E04F51 /* scanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scanViewController.h; sourceTree = "<group>"; };
+		EC34AB7C1CE1A1BA00E04F51 /* scanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scanViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC34AB0E1CE194FA00E04F51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC34AB271CE194FA00E04F51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC34AB321CE194FA00E04F51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC34AB081CE194FA00E04F51 = {
+			isa = PBXGroup;
+			children = (
+				EC34AB131CE194FA00E04F51 /* barcode */,
+				EC34AB2D1CE194FA00E04F51 /* barcodeTests */,
+				EC34AB381CE194FA00E04F51 /* barcodeUITests */,
+				EC34AB121CE194FA00E04F51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC34AB121CE194FA00E04F51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC34AB111CE194FA00E04F51 /* barcode.app */,
+				EC34AB2A1CE194FA00E04F51 /* barcodeTests.xctest */,
+				EC34AB351CE194FA00E04F51 /* barcodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC34AB131CE194FA00E04F51 /* barcode */ = {
+			isa = PBXGroup;
+			children = (
+				EC34AB7E1CE1A1C100E04F51 /* create */,
+				EC34AB731CE197B800E04F51 /* Scan */,
+				EC34AB171CE194FA00E04F51 /* AppDelegate.h */,
+				EC34AB181CE194FA00E04F51 /* AppDelegate.m */,
+				EC34AB1A1CE194FA00E04F51 /* ViewController.h */,
+				EC34AB1B1CE194FA00E04F51 /* ViewController.m */,
+				EC34AB7B1CE1A1BA00E04F51 /* scanViewController.h */,
+				EC34AB7C1CE1A1BA00E04F51 /* scanViewController.m */,
+				EC34AB1D1CE194FA00E04F51 /* Main.storyboard */,
+				EC34AB201CE194FA00E04F51 /* Assets.xcassets */,
+				EC34AB221CE194FA00E04F51 /* LaunchScreen.storyboard */,
+				EC34AB251CE194FA00E04F51 /* Info.plist */,
+				EC34AB141CE194FA00E04F51 /* Supporting Files */,
+			);
+			path = barcode;
+			sourceTree = "<group>";
+		};
+		EC34AB141CE194FA00E04F51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC34AB151CE194FA00E04F51 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC34AB2D1CE194FA00E04F51 /* barcodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC34AB2E1CE194FA00E04F51 /* barcodeTests.m */,
+				EC34AB301CE194FA00E04F51 /* Info.plist */,
+			);
+			path = barcodeTests;
+			sourceTree = "<group>";
+		};
+		EC34AB381CE194FA00E04F51 /* barcodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC34AB391CE194FA00E04F51 /* barcodeUITests.m */,
+				EC34AB3B1CE194FA00E04F51 /* Info.plist */,
+			);
+			path = barcodeUITests;
+			sourceTree = "<group>";
+		};
+		EC34AB731CE197B800E04F51 /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				EC34AB741CE197D500E04F51 /* line@2x.png */,
+				EC34AB751CE197D500E04F51 /* pick_bg@2x.png */,
+				1859E4351CE1B69300A91C88 /* RootViewController.h */,
+				1859E4361CE1B69300A91C88 /* RootViewController.m */,
+			);
+			name = Scan;
+			sourceTree = "<group>";
+		};
+		EC34AB7E1CE1A1C100E04F51 /* create */ = {
+			isa = PBXGroup;
+			children = (
+				EC34AB6A1CE197B000E04F51 /* ZBarSymbol.h */,
+				EC34AB471CE197B000E04F51 /* QRCodeGenerator.h */,
+				EC34AB481CE197B000E04F51 /* QRCodeGenerator.m */,
+				EC34AB491CE197B000E04F51 /* bitstream.c */,
+				EC34AB4A1CE197B000E04F51 /* bitstream.h */,
+				EC34AB4B1CE197B000E04F51 /* mask.c */,
+				EC34AB4C1CE197B000E04F51 /* mask.h */,
+				EC34AB4D1CE197B000E04F51 /* qrencode.c */,
+				EC34AB4E1CE197B000E04F51 /* qrencode.h */,
+				EC34AB4F1CE197B000E04F51 /* qrinput.c */,
+				EC34AB501CE197B000E04F51 /* qrinput.h */,
+				EC34AB511CE197B000E04F51 /* qrspec.c */,
+				EC34AB521CE197B000E04F51 /* qrspec.h */,
+				EC34AB531CE197B000E04F51 /* rscode.c */,
+				EC34AB541CE197B000E04F51 /* rscode.h */,
+				EC34AB551CE197B000E04F51 /* split.c */,
+				EC34AB561CE197B000E04F51 /* split.h */,
+				EC34AB571CE197B000E04F51 /* Decoder.h */,
+				EC34AB581CE197B000E04F51 /* Exception.h */,
+				EC34AB591CE197B000E04F51 /* Image.h */,
+				EC34AB5A1CE197B000E04F51 /* ImageScanner.h */,
+				EC34AB5B1CE197B000E04F51 /* Processor.h */,
+				EC34AB5C1CE197B000E04F51 /* Scanner.h */,
+				EC34AB5D1CE197B000E04F51 /* Symbol.h */,
+				EC34AB5E1CE197B000E04F51 /* Video.h */,
+				EC34AB5F1CE197B000E04F51 /* Window.h */,
+				EC34AB601CE197B000E04F51 /* zbar.h */,
+				EC34AB611CE197B000E04F51 /* ZBarCameraSimulator.h */,
+				EC34AB621CE197B000E04F51 /* ZBarCaptureReader.h */,
+				EC34AB631CE197B000E04F51 /* ZBarHelpController.h */,
+				EC34AB641CE197B000E04F51 /* ZBarImage.h */,
+				EC34AB651CE197B000E04F51 /* ZBarImageScanner.h */,
+				EC34AB661CE197B000E04F51 /* ZBarReaderController.h */,
+				EC34AB671CE197B000E04F51 /* ZBarReaderView.h */,
+				EC34AB681CE197B000E04F51 /* ZBarReaderViewController.h */,
+				EC34AB691CE197B000E04F51 /* ZBarSDK.h */,
+			);
+			name = create;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC34AB101CE194FA00E04F51 /* barcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC34AB3E1CE194FA00E04F51 /* Build configuration list for PBXNativeTarget "barcode" */;
+			buildPhases = (
+				EC34AB0D1CE194FA00E04F51 /* Sources */,
+				EC34AB0E1CE194FA00E04F51 /* Frameworks */,
+				EC34AB0F1CE194FA00E04F51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = barcode;
+			productName = barcode;
+			productReference = EC34AB111CE194FA00E04F51 /* barcode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC34AB291CE194FA00E04F51 /* barcodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC34AB411CE194FA00E04F51 /* Build configuration list for PBXNativeTarget "barcodeTests" */;
+			buildPhases = (
+				EC34AB261CE194FA00E04F51 /* Sources */,
+				EC34AB271CE194FA00E04F51 /* Frameworks */,
+				EC34AB281CE194FA00E04F51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC34AB2C1CE194FA00E04F51 /* PBXTargetDependency */,
+			);
+			name = barcodeTests;
+			productName = barcodeTests;
+			productReference = EC34AB2A1CE194FA00E04F51 /* barcodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC34AB341CE194FA00E04F51 /* barcodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC34AB441CE194FA00E04F51 /* Build configuration list for PBXNativeTarget "barcodeUITests" */;
+			buildPhases = (
+				EC34AB311CE194FA00E04F51 /* Sources */,
+				EC34AB321CE194FA00E04F51 /* Frameworks */,
+				EC34AB331CE194FA00E04F51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC34AB371CE194FA00E04F51 /* PBXTargetDependency */,
+			);
+			name = barcodeUITests;
+			productName = barcodeUITests;
+			productReference = EC34AB351CE194FA00E04F51 /* barcodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC34AB091CE194FA00E04F51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Katychn;
+				TargetAttributes = {
+					EC34AB101CE194FA00E04F51 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = M6A6BJPJ5K;
+					};
+					EC34AB291CE194FA00E04F51 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EC34AB101CE194FA00E04F51;
+					};
+					EC34AB341CE194FA00E04F51 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EC34AB101CE194FA00E04F51;
+					};
+				};
+			};
+			buildConfigurationList = EC34AB0C1CE194FA00E04F51 /* Build configuration list for PBXProject "barcode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC34AB081CE194FA00E04F51;
+			productRefGroup = EC34AB121CE194FA00E04F51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC34AB101CE194FA00E04F51 /* barcode */,
+				EC34AB291CE194FA00E04F51 /* barcodeTests */,
+				EC34AB341CE194FA00E04F51 /* barcodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC34AB0F1CE194FA00E04F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC34AB781CE197D500E04F51 /* line@2x.png in Resources */,
+				EC34AB241CE194FA00E04F51 /* LaunchScreen.storyboard in Resources */,
+				EC34AB211CE194FA00E04F51 /* Assets.xcassets in Resources */,
+				EC34AB1F1CE194FA00E04F51 /* Main.storyboard in Resources */,
+				EC34AB791CE197D500E04F51 /* pick_bg@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC34AB281CE194FA00E04F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC34AB331CE194FA00E04F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC34AB0D1CE194FA00E04F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC34AB7D1CE1A1BA00E04F51 /* scanViewController.m in Sources */,
+				EC34AB1C1CE194FA00E04F51 /* ViewController.m in Sources */,
+				EC34AB701CE197B000E04F51 /* qrspec.c in Sources */,
+				EC34AB6C1CE197B000E04F51 /* bitstream.c in Sources */,
+				EC34AB711CE197B000E04F51 /* rscode.c in Sources */,
+				EC34AB6B1CE197B000E04F51 /* QRCodeGenerator.m in Sources */,
+				EC34AB6D1CE197B000E04F51 /* mask.c in Sources */,
+				EC34AB6E1CE197B000E04F51 /* qrencode.c in Sources */,
+				EC34AB6F1CE197B000E04F51 /* qrinput.c in Sources */,
+				EC34AB721CE197B000E04F51 /* split.c in Sources */,
+				1859E4371CE1B69300A91C88 /* RootViewController.m in Sources */,
+				EC34AB191CE194FA00E04F51 /* AppDelegate.m in Sources */,
+				EC34AB161CE194FA00E04F51 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC34AB261CE194FA00E04F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC34AB2F1CE194FA00E04F51 /* barcodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC34AB311CE194FA00E04F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC34AB3A1CE194FA00E04F51 /* barcodeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC34AB2C1CE194FA00E04F51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC34AB101CE194FA00E04F51 /* barcode */;
+			targetProxy = EC34AB2B1CE194FA00E04F51 /* PBXContainerItemProxy */;
+		};
+		EC34AB371CE194FA00E04F51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC34AB101CE194FA00E04F51 /* barcode */;
+			targetProxy = EC34AB361CE194FA00E04F51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC34AB1D1CE194FA00E04F51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC34AB1E1CE194FA00E04F51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC34AB221CE194FA00E04F51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC34AB231CE194FA00E04F51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC34AB3C1CE194FA00E04F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC34AB3D1CE194FA00E04F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC34AB3F1CE194FA00E04F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = barcode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = barcode.lu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC34AB401CE194FA00E04F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = barcode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = barcode.lu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC34AB421CE194FA00E04F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = barcodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Katychn.barcodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/barcode.app/barcode";
+			};
+			name = Debug;
+		};
+		EC34AB431CE194FA00E04F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = barcodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Katychn.barcodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/barcode.app/barcode";
+			};
+			name = Release;
+		};
+		EC34AB451CE194FA00E04F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = barcodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Katychn.barcodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = barcode;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EC34AB461CE194FA00E04F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = barcodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Katychn.barcodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = barcode;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC34AB0C1CE194FA00E04F51 /* Build configuration list for PBXProject "barcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC34AB3C1CE194FA00E04F51 /* Debug */,
+				EC34AB3D1CE194FA00E04F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC34AB3E1CE194FA00E04F51 /* Build configuration list for PBXNativeTarget "barcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC34AB3F1CE194FA00E04F51 /* Debug */,
+				EC34AB401CE194FA00E04F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC34AB411CE194FA00E04F51 /* Build configuration list for PBXNativeTarget "barcodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC34AB421CE194FA00E04F51 /* Debug */,
+				EC34AB431CE194FA00E04F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC34AB441CE194FA00E04F51 /* Build configuration list for PBXNativeTarget "barcodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC34AB451CE194FA00E04F51 /* Debug */,
+				EC34AB461CE194FA00E04F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC34AB091CE194FA00E04F51 /* Project object */;
+}
